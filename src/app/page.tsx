@@ -16,7 +16,7 @@ export default function Home() {
         aria-hidden="true"
         className="fixed inset-y-0 inset-x-0 -z-10 pointer-events-none px-6 md:px-16 lg:px-24"
       >
-        <div className="h-full border-l border-r border-border/30" />
+        <div className="h-full hidden md:block border-l border-r border-border/30" />
       </div>
 
       <Hero />

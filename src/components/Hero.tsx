@@ -5,7 +5,10 @@ export default function Hero() {
       className="min-h-screen flex flex-col justify-center px-6 md:px-16 lg:px-24"
     >
       <div className="max-w-4xl px-4">
-        <div className="flex flex-wrap gap-2 mb-8">
+        <div
+          className="flex flex-wrap gap-2 mb-8 anim-fade-up"
+          style={{ animationDelay: "100ms" }}
+        >
           <span className="text-xs font-medium px-3 py-1 rounded-full border border-border text-fg-muted">
             .NET Specialist
           </span>
@@ -14,13 +17,19 @@ export default function Hero() {
           </span>
         </div>
 
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-fg leading-tight tracking-tight mb-6">
+        <h1
+          className="text-5xl md:text-7xl lg:text-8xl font-bold text-fg leading-tight tracking-tight mb-6 anim-fade-up"
+          style={{ animationDelay: "200ms" }}
+        >
           Building Things
           <br />
           With Code.
         </h1>
 
-        <p className="text-lg md:text-xl text-fg-muted max-w-xl leading-relaxed">
+        <p
+          className="text-lg md:text-xl text-fg-muted max-w-xl leading-relaxed anim-fade-up"
+          style={{ animationDelay: "350ms" }}
+        >
           Hi, I&apos;m{" "}
           <span className="text-accent font-medium">Bene</span>. I build
           internal tools and dashboards with .NET — and I&apos;m teaching myself
