@@ -1,6 +1,6 @@
 import FadeIn from "./FadeIn";
 
-const daily = ["ASP.NET MVC", "C#", "SQL Server", "IIS", "T-SQL", "Cloudflare Tunnel", "Git"];
+const daily = ["ASP.NET MVC", "C#", "SQL Server", "IIS", "Cloudflare Tunnel", "Git"];
 const exploring = ["Next.js", "TypeScript", "Tailwind CSS", "React"];
 
 export default function Skills() {
